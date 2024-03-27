@@ -1,6 +1,7 @@
 from matplotlib import pyplot as plt
 import numpy as np
 
+plt.style.use("fivethirtyeight")
 #print(plt.style.available)
 #plt.xkcd()
 
