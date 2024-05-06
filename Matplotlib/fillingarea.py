@@ -15,8 +15,8 @@ plt.plot(ages, python_salaries, label="Python developers")
 
 median = 57287
 
-plt.fill_between(ages, python_salaries, median, where=(python_salaries > median), interpolate=True, alpha=0.25, label="above median salary")
-plt.fill_between(ages, python_salaries, median, where=(python_salaries <= median), interpolate=True, color="red", alpha=0.25, label="below median salary")
+plt.fill_between(ages, python_salaries, median, where=(python_salaries > median), interpolate=True, alpha=0.25, label="above median developer salary")
+plt.fill_between(ages, python_salaries, median, where=(python_salaries <= median), interpolate=True, color="red", alpha=0.25, label="below median developer salary")
 
 
 plt.legend()
